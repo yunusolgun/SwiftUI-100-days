@@ -24,11 +24,11 @@ struct ContentView: View {
             
             Divider()
             
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            Button(action: {}, label: {
                 Text("Yeşil Renk").foregroundColor(.green).padding()
             })
             
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            Button(action: {}, label: {
                 Text("Thin Font Weight").foregroundColor(.blue).fontWeight(.thin).padding()
             })
             
