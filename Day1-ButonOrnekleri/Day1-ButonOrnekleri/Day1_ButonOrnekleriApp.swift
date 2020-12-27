@@ -11,7 +11,8 @@ import SwiftUI
 struct Day1_ButonOrnekleriApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            Button_Ornek6()
         }
     }
 }
