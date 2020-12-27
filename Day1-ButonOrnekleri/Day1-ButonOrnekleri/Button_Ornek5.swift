@@ -11,21 +11,21 @@ struct Button_Ornek5: View {
     var body: some View {
         VStack(spacing:20) {
             Text("Button Örnek - 5").font(.largeTitle)
-            Text("Butonlar ve SF Sembolleri").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).foregroundColor(.gray)
+            Text("Butonlar ve SF Sembolleri").font(.title).foregroundColor(.gray)
             Text("SF Sembollerini butonlarla birlikte kullanalım").font(.title).frame(maxWidth:.infinity).padding().background(Color.orange).foregroundColor(.white)
             
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            Button(action: {}, label: {
                 Text("Hediye Gönder").padding(.horizontal)
                 Image(systemName: "gift.fill")
             }).padding().foregroundColor(.white).background(Color.orange).cornerRadius(15)
             
             
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            Button(action: {}, label: {
                 Image(systemName: "magnifyingglass")
                 Text("Ara").padding(.horizontal)
             }).padding().foregroundColor(.white).background(Color.orange).cornerRadius(15)
             
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            Button(action: {}, label: {
                 VStack(spacing:5) {
                     Image(systemName: "video.fill")
                     Text("Kaydı başlat").padding(.horizontal)
@@ -33,7 +33,7 @@ struct Button_Ornek5: View {
             })
             
             
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            Button(action: {}, label: {
                 Image("manzara").overlay(
                     Text("MANZARAYA GEL").foregroundColor(.white).font(.title).bold()
                 )
