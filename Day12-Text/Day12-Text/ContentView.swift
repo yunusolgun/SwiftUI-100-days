@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  TabView
+//  Day12-Text
 //
 //  Created by yunus olgun on 31.12.2020.
 //
@@ -9,8 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("Hello, World!")
     }
 }
 

@@ -7,31 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEFF38C4259DBB55005832DF /* TabViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF38C3259DBB55005832DF /* TabViewApp.swift */; };
-		DEFF38C6259DBB55005832DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF38C5259DBB55005832DF /* ContentView.swift */; };
-		DEFF38C8259DBB57005832DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFF38C7259DBB57005832DF /* Assets.xcassets */; };
-		DEFF38CB259DBB57005832DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFF38CA259DBB57005832DF /* Preview Assets.xcassets */; };
-		DEFF38D4259DBB6D005832DF /* TabView_Ornek1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF38D3259DBB6D005832DF /* TabView_Ornek1.swift */; };
-		DEFF38D7259DBDAD005832DF /* TabView_Ornek2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF38D6259DBDAD005832DF /* TabView_Ornek2.swift */; };
-		DEFF38DA259DBF37005832DF /* TabView_Ornek3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF38D9259DBF37005832DF /* TabView_Ornek3.swift */; };
-		DEFF38DD259DC139005832DF /* TabView_Ornek4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF38DC259DC139005832DF /* TabView_Ornek4.swift */; };
+		DEFF3914259DCC74005832DF /* Day12_TextApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF3913259DCC74005832DF /* Day12_TextApp.swift */; };
+		DEFF3916259DCC74005832DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF3915259DCC74005832DF /* ContentView.swift */; };
+		DEFF3918259DCC77005832DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFF3917259DCC77005832DF /* Assets.xcassets */; };
+		DEFF391B259DCC77005832DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFF391A259DCC77005832DF /* Preview Assets.xcassets */; };
+		DEFF3924259DCEC4005832DF /* TextView_Ornek1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF3923259DCEC4005832DF /* TextView_Ornek1.swift */; };
+		DEFF3927259DCED0005832DF /* TextView_Ornek2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF3926259DCED0005832DF /* TextView_Ornek2.swift */; };
+		DEFF392A259DD1A2005832DF /* TextView_Ornek3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF3929259DD1A2005832DF /* TextView_Ornek3.swift */; };
+		DEFF392D259DD380005832DF /* TextView_Ornek4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF392C259DD380005832DF /* TextView_Ornek4.swift */; };
+		DEFF3930259DD547005832DF /* TextView_Ornek5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF392F259DD547005832DF /* TextView_Ornek5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DEFF38C0259DBB55005832DF /* TabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEFF38C3259DBB55005832DF /* TabViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewApp.swift; sourceTree = "<group>"; };
-		DEFF38C5259DBB55005832DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DEFF38C7259DBB57005832DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DEFF38CA259DBB57005832DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DEFF38CC259DBB57005832DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEFF38D3259DBB6D005832DF /* TabView_Ornek1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Ornek1.swift; sourceTree = "<group>"; };
-		DEFF38D6259DBDAD005832DF /* TabView_Ornek2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Ornek2.swift; sourceTree = "<group>"; };
-		DEFF38D9259DBF37005832DF /* TabView_Ornek3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Ornek3.swift; sourceTree = "<group>"; };
-		DEFF38DC259DC139005832DF /* TabView_Ornek4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Ornek4.swift; sourceTree = "<group>"; };
+		DEFF3910259DCC74005832DF /* Day12-Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day12-Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFF3913259DCC74005832DF /* Day12_TextApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day12_TextApp.swift; sourceTree = "<group>"; };
+		DEFF3915259DCC74005832DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DEFF3917259DCC77005832DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEFF391A259DCC77005832DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEFF391C259DCC77005832DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFF3923259DCEC4005832DF /* TextView_Ornek1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView_Ornek1.swift; sourceTree = "<group>"; };
+		DEFF3926259DCED0005832DF /* TextView_Ornek2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView_Ornek2.swift; sourceTree = "<group>"; };
+		DEFF3929259DD1A2005832DF /* TextView_Ornek3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView_Ornek3.swift; sourceTree = "<group>"; };
+		DEFF392C259DD380005832DF /* TextView_Ornek4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView_Ornek4.swift; sourceTree = "<group>"; };
+		DEFF392F259DD547005832DF /* TextView_Ornek5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView_Ornek5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DEFF38BD259DBB55005832DF /* Frameworks */ = {
+		DEFF390D259DCC74005832DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,42 +43,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DEFF38B7259DBB55005832DF = {
+		DEFF3907259DCC74005832DF = {
 			isa = PBXGroup;
 			children = (
-				DEFF38C2259DBB55005832DF /* TabView */,
-				DEFF38C1259DBB55005832DF /* Products */,
+				DEFF3912259DCC74005832DF /* Day12-Text */,
+				DEFF3911259DCC74005832DF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DEFF38C1259DBB55005832DF /* Products */ = {
+		DEFF3911259DCC74005832DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEFF38C0259DBB55005832DF /* TabView.app */,
+				DEFF3910259DCC74005832DF /* Day12-Text.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DEFF38C2259DBB55005832DF /* TabView */ = {
+		DEFF3912259DCC74005832DF /* Day12-Text */ = {
 			isa = PBXGroup;
 			children = (
-				DEFF38C3259DBB55005832DF /* TabViewApp.swift */,
-				DEFF38C5259DBB55005832DF /* ContentView.swift */,
-				DEFF38D3259DBB6D005832DF /* TabView_Ornek1.swift */,
-				DEFF38D6259DBDAD005832DF /* TabView_Ornek2.swift */,
-				DEFF38D9259DBF37005832DF /* TabView_Ornek3.swift */,
-				DEFF38DC259DC139005832DF /* TabView_Ornek4.swift */,
-				DEFF38C7259DBB57005832DF /* Assets.xcassets */,
-				DEFF38CC259DBB57005832DF /* Info.plist */,
-				DEFF38C9259DBB57005832DF /* Preview Content */,
+				DEFF3913259DCC74005832DF /* Day12_TextApp.swift */,
+				DEFF3915259DCC74005832DF /* ContentView.swift */,
+				DEFF3923259DCEC4005832DF /* TextView_Ornek1.swift */,
+				DEFF3926259DCED0005832DF /* TextView_Ornek2.swift */,
+				DEFF3929259DD1A2005832DF /* TextView_Ornek3.swift */,
+				DEFF392C259DD380005832DF /* TextView_Ornek4.swift */,
+				DEFF392F259DD547005832DF /* TextView_Ornek5.swift */,
+				DEFF3917259DCC77005832DF /* Assets.xcassets */,
+				DEFF391C259DCC77005832DF /* Info.plist */,
+				DEFF3919259DCC77005832DF /* Preview Content */,
 			);
-			path = TabView;
+			path = "Day12-Text";
 			sourceTree = "<group>";
 		};
-		DEFF38C9259DBB57005832DF /* Preview Content */ = {
+		DEFF3919259DCC77005832DF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DEFF38CA259DBB57005832DF /* Preview Assets.xcassets */,
+				DEFF391A259DCC77005832DF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -84,38 +87,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DEFF38BF259DBB55005832DF /* TabView */ = {
+		DEFF390F259DCC74005832DF /* Day12-Text */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEFF38CF259DBB57005832DF /* Build configuration list for PBXNativeTarget "TabView" */;
+			buildConfigurationList = DEFF391F259DCC77005832DF /* Build configuration list for PBXNativeTarget "Day12-Text" */;
 			buildPhases = (
-				DEFF38BC259DBB55005832DF /* Sources */,
-				DEFF38BD259DBB55005832DF /* Frameworks */,
-				DEFF38BE259DBB55005832DF /* Resources */,
+				DEFF390C259DCC74005832DF /* Sources */,
+				DEFF390D259DCC74005832DF /* Frameworks */,
+				DEFF390E259DCC74005832DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TabView;
-			productName = TabView;
-			productReference = DEFF38C0259DBB55005832DF /* TabView.app */;
+			name = "Day12-Text";
+			productName = "Day12-Text";
+			productReference = DEFF3910259DCC74005832DF /* Day12-Text.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DEFF38B8259DBB55005832DF /* Project object */ = {
+		DEFF3908259DCC74005832DF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					DEFF38BF259DBB55005832DF = {
+					DEFF390F259DCC74005832DF = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = DEFF38BB259DBB55005832DF /* Build configuration list for PBXProject "TabView" */;
+			buildConfigurationList = DEFF390B259DCC74005832DF /* Build configuration list for PBXProject "Day12-Text" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,46 +126,47 @@
 				en,
 				Base,
 			);
-			mainGroup = DEFF38B7259DBB55005832DF;
-			productRefGroup = DEFF38C1259DBB55005832DF /* Products */;
+			mainGroup = DEFF3907259DCC74005832DF;
+			productRefGroup = DEFF3911259DCC74005832DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEFF38BF259DBB55005832DF /* TabView */,
+				DEFF390F259DCC74005832DF /* Day12-Text */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DEFF38BE259DBB55005832DF /* Resources */ = {
+		DEFF390E259DCC74005832DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEFF38CB259DBB57005832DF /* Preview Assets.xcassets in Resources */,
-				DEFF38C8259DBB57005832DF /* Assets.xcassets in Resources */,
+				DEFF391B259DCC77005832DF /* Preview Assets.xcassets in Resources */,
+				DEFF3918259DCC77005832DF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DEFF38BC259DBB55005832DF /* Sources */ = {
+		DEFF390C259DCC74005832DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEFF38D4259DBB6D005832DF /* TabView_Ornek1.swift in Sources */,
-				DEFF38D7259DBDAD005832DF /* TabView_Ornek2.swift in Sources */,
-				DEFF38DA259DBF37005832DF /* TabView_Ornek3.swift in Sources */,
-				DEFF38C6259DBB55005832DF /* ContentView.swift in Sources */,
-				DEFF38C4259DBB55005832DF /* TabViewApp.swift in Sources */,
-				DEFF38DD259DC139005832DF /* TabView_Ornek4.swift in Sources */,
+				DEFF3927259DCED0005832DF /* TextView_Ornek2.swift in Sources */,
+				DEFF3916259DCC74005832DF /* ContentView.swift in Sources */,
+				DEFF3914259DCC74005832DF /* Day12_TextApp.swift in Sources */,
+				DEFF392A259DD1A2005832DF /* TextView_Ornek3.swift in Sources */,
+				DEFF392D259DD380005832DF /* TextView_Ornek4.swift in Sources */,
+				DEFF3924259DCEC4005832DF /* TextView_Ornek1.swift in Sources */,
+				DEFF3930259DD547005832DF /* TextView_Ornek5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DEFF38CD259DBB57005832DF /* Debug */ = {
+		DEFF391D259DCC77005832DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		DEFF38CE259DBB57005832DF /* Release */ = {
+		DEFF391E259DCC77005832DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,44 +282,44 @@
 			};
 			name = Release;
 		};
-		DEFF38D0259DBB57005832DF /* Debug */ = {
+		DEFF3920259DCC77005832DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TabView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Day12-Text/Preview Content\"";
 				DEVELOPMENT_TEAM = 7UTB6LU2LV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TabView/Info.plist;
+				INFOPLIST_FILE = "Day12-Text/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.calidustech.TabView;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day12-Text";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DEFF38D1259DBB57005832DF /* Release */ = {
+		DEFF3921259DCC77005832DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TabView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Day12-Text/Preview Content\"";
 				DEVELOPMENT_TEAM = 7UTB6LU2LV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TabView/Info.plist;
+				INFOPLIST_FILE = "Day12-Text/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.calidustech.TabView;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day12-Text";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,25 +329,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEFF38BB259DBB55005832DF /* Build configuration list for PBXProject "TabView" */ = {
+		DEFF390B259DCC74005832DF /* Build configuration list for PBXProject "Day12-Text" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEFF38CD259DBB57005832DF /* Debug */,
-				DEFF38CE259DBB57005832DF /* Release */,
+				DEFF391D259DCC77005832DF /* Debug */,
+				DEFF391E259DCC77005832DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEFF38CF259DBB57005832DF /* Build configuration list for PBXNativeTarget "TabView" */ = {
+		DEFF391F259DCC77005832DF /* Build configuration list for PBXNativeTarget "Day12-Text" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEFF38D0259DBB57005832DF /* Debug */,
-				DEFF38D1259DBB57005832DF /* Release */,
+				DEFF3920259DCC77005832DF /* Debug */,
+				DEFF3921259DCC77005832DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DEFF38B8259DBB55005832DF /* Project object */;
+	rootObject = DEFF3908259DCC74005832DF /* Project object */;
 }
