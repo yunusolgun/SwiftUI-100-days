@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE7130A1259F81CE000DCD89 /* Day21_DikdortgenselSekillerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7130A0259F81CE000DCD89 /* Day21_DikdortgenselSekillerApp.swift */; };
+		DE7130A3259F81CE000DCD89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7130A2259F81CE000DCD89 /* ContentView.swift */; };
+		DE7130A5259F81CF000DCD89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7130A4259F81CF000DCD89 /* Assets.xcassets */; };
+		DE7130A8259F81CF000DCD89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7130A7259F81CF000DCD89 /* Preview Assets.xcassets */; };
+		DE7130B1259F81E4000DCD89 /* Dikdortgen_Ornek1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7130B0259F81E4000DCD89 /* Dikdortgen_Ornek1.swift */; };
+		DE7130B4259F8218000DCD89 /* Dikdortgen_Ornek2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7130B3259F8218000DCD89 /* Dikdortgen_Ornek2.swift */; };
+		DE7130B7259F8232000DCD89 /* Dikdortgen_Ornek3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7130B6259F8232000DCD89 /* Dikdortgen_Ornek3.swift */; };
+		DE7130BA259F8253000DCD89 /* Dikdortgen_Ornek4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7130B9259F8253000DCD89 /* Dikdortgen_Ornek4.swift */; };
+		DE7130BD259F826A000DCD89 /* Dikdortgen_Ornek5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7130BC259F826A000DCD89 /* Dikdortgen_Ornek5.swift */; };
+		DE7130C0259F8297000DCD89 /* Dikdortgen_Ornek6.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7130BF259F8297000DCD89 /* Dikdortgen_Ornek6.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE71309D259F81CE000DCD89 /* Day21-DikdortgenselSekiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day21-DikdortgenselSekiller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7130A0259F81CE000DCD89 /* Day21_DikdortgenselSekillerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21_DikdortgenselSekillerApp.swift; sourceTree = "<group>"; };
+		DE7130A2259F81CE000DCD89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE7130A4259F81CF000DCD89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE7130A7259F81CF000DCD89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE7130A9259F81CF000DCD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7130B0259F81E4000DCD89 /* Dikdortgen_Ornek1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikdortgen_Ornek1.swift; sourceTree = "<group>"; };
+		DE7130B3259F8218000DCD89 /* Dikdortgen_Ornek2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikdortgen_Ornek2.swift; sourceTree = "<group>"; };
+		DE7130B6259F8232000DCD89 /* Dikdortgen_Ornek3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikdortgen_Ornek3.swift; sourceTree = "<group>"; };
+		DE7130B9259F8253000DCD89 /* Dikdortgen_Ornek4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikdortgen_Ornek4.swift; sourceTree = "<group>"; };
+		DE7130BC259F826A000DCD89 /* Dikdortgen_Ornek5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikdortgen_Ornek5.swift; sourceTree = "<group>"; };
+		DE7130BF259F8297000DCD89 /* Dikdortgen_Ornek6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikdortgen_Ornek6.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE71309A259F81CE000DCD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE713094259F81CE000DCD89 = {
+			isa = PBXGroup;
+			children = (
+				DE71309F259F81CE000DCD89 /* Day21-DikdortgenselSekiller */,
+				DE71309E259F81CE000DCD89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE71309E259F81CE000DCD89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE71309D259F81CE000DCD89 /* Day21-DikdortgenselSekiller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE71309F259F81CE000DCD89 /* Day21-DikdortgenselSekiller */ = {
+			isa = PBXGroup;
+			children = (
+				DE7130A0259F81CE000DCD89 /* Day21_DikdortgenselSekillerApp.swift */,
+				DE7130A2259F81CE000DCD89 /* ContentView.swift */,
+				DE7130B0259F81E4000DCD89 /* Dikdortgen_Ornek1.swift */,
+				DE7130B3259F8218000DCD89 /* Dikdortgen_Ornek2.swift */,
+				DE7130B6259F8232000DCD89 /* Dikdortgen_Ornek3.swift */,
+				DE7130B9259F8253000DCD89 /* Dikdortgen_Ornek4.swift */,
+				DE7130BC259F826A000DCD89 /* Dikdortgen_Ornek5.swift */,
+				DE7130BF259F8297000DCD89 /* Dikdortgen_Ornek6.swift */,
+				DE7130A4259F81CF000DCD89 /* Assets.xcassets */,
+				DE7130A9259F81CF000DCD89 /* Info.plist */,
+				DE7130A6259F81CF000DCD89 /* Preview Content */,
+			);
+			path = "Day21-DikdortgenselSekiller";
+			sourceTree = "<group>";
+		};
+		DE7130A6259F81CF000DCD89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE7130A7259F81CF000DCD89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE71309C259F81CE000DCD89 /* Day21-DikdortgenselSekiller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE7130AC259F81CF000DCD89 /* Build configuration list for PBXNativeTarget "Day21-DikdortgenselSekiller" */;
+			buildPhases = (
+				DE713099259F81CE000DCD89 /* Sources */,
+				DE71309A259F81CE000DCD89 /* Frameworks */,
+				DE71309B259F81CE000DCD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day21-DikdortgenselSekiller";
+			productName = "Day21-DikdortgenselSekiller";
+			productReference = DE71309D259F81CE000DCD89 /* Day21-DikdortgenselSekiller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE713095259F81CE000DCD89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DE71309C259F81CE000DCD89 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DE713098259F81CE000DCD89 /* Build configuration list for PBXProject "Day21-DikdortgenselSekiller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE713094259F81CE000DCD89;
+			productRefGroup = DE71309E259F81CE000DCD89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE71309C259F81CE000DCD89 /* Day21-DikdortgenselSekiller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE71309B259F81CE000DCD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7130A8259F81CF000DCD89 /* Preview Assets.xcassets in Resources */,
+				DE7130A5259F81CF000DCD89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE713099259F81CE000DCD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7130B7259F8232000DCD89 /* Dikdortgen_Ornek3.swift in Sources */,
+				DE7130C0259F8297000DCD89 /* Dikdortgen_Ornek6.swift in Sources */,
+				DE7130A3259F81CE000DCD89 /* ContentView.swift in Sources */,
+				DE7130BD259F826A000DCD89 /* Dikdortgen_Ornek5.swift in Sources */,
+				DE7130B4259F8218000DCD89 /* Dikdortgen_Ornek2.swift in Sources */,
+				DE7130A1259F81CE000DCD89 /* Day21_DikdortgenselSekillerApp.swift in Sources */,
+				DE7130B1259F81E4000DCD89 /* Dikdortgen_Ornek1.swift in Sources */,
+				DE7130BA259F8253000DCD89 /* Dikdortgen_Ornek4.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE7130AA259F81CF000DCD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE7130AB259F81CF000DCD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE7130AD259F81CF000DCD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day21-DikdortgenselSekiller/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day21-DikdortgenselSekiller/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day21-DikdortgenselSekiller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE7130AE259F81CF000DCD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day21-DikdortgenselSekiller/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day21-DikdortgenselSekiller/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day21-DikdortgenselSekiller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE713098259F81CE000DCD89 /* Build configuration list for PBXProject "Day21-DikdortgenselSekiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7130AA259F81CF000DCD89 /* Debug */,
+				DE7130AB259F81CF000DCD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE7130AC259F81CF000DCD89 /* Build configuration list for PBXNativeTarget "Day21-DikdortgenselSekiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7130AD259F81CF000DCD89 /* Debug */,
+				DE7130AE259F81CF000DCD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE713095259F81CE000DCD89 /* Project object */;
+}
