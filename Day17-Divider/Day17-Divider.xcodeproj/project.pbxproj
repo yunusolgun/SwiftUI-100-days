@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE5A0DA9259F1E5B007C18AC /* Day17_DividerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A0DA8259F1E5B007C18AC /* Day17_DividerApp.swift */; };
+		DE5A0DAB259F1E5B007C18AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A0DAA259F1E5B007C18AC /* ContentView.swift */; };
+		DE5A0DAD259F1E5E007C18AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5A0DAC259F1E5E007C18AC /* Assets.xcassets */; };
+		DE5A0DB0259F1E5E007C18AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5A0DAF259F1E5E007C18AC /* Preview Assets.xcassets */; };
+		DE5A0DB9259F1E77007C18AC /* Divider_Ornek1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A0DB8259F1E77007C18AC /* Divider_Ornek1.swift */; };
+		DE5A0DBC259F1F8A007C18AC /* Divider_Ornek2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A0DBB259F1F8A007C18AC /* Divider_Ornek2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE5A0DA5259F1E5B007C18AC /* Day17-Divider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day17-Divider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5A0DA8259F1E5B007C18AC /* Day17_DividerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day17_DividerApp.swift; sourceTree = "<group>"; };
+		DE5A0DAA259F1E5B007C18AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE5A0DAC259F1E5E007C18AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE5A0DAF259F1E5E007C18AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE5A0DB1259F1E5E007C18AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5A0DB8259F1E77007C18AC /* Divider_Ornek1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divider_Ornek1.swift; sourceTree = "<group>"; };
+		DE5A0DBB259F1F8A007C18AC /* Divider_Ornek2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divider_Ornek2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE5A0DA2259F1E5B007C18AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE5A0D9C259F1E5B007C18AC = {
+			isa = PBXGroup;
+			children = (
+				DE5A0DA7259F1E5B007C18AC /* Day17-Divider */,
+				DE5A0DA6259F1E5B007C18AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE5A0DA6259F1E5B007C18AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE5A0DA5259F1E5B007C18AC /* Day17-Divider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE5A0DA7259F1E5B007C18AC /* Day17-Divider */ = {
+			isa = PBXGroup;
+			children = (
+				DE5A0DA8259F1E5B007C18AC /* Day17_DividerApp.swift */,
+				DE5A0DAA259F1E5B007C18AC /* ContentView.swift */,
+				DE5A0DB8259F1E77007C18AC /* Divider_Ornek1.swift */,
+				DE5A0DBB259F1F8A007C18AC /* Divider_Ornek2.swift */,
+				DE5A0DAC259F1E5E007C18AC /* Assets.xcassets */,
+				DE5A0DB1259F1E5E007C18AC /* Info.plist */,
+				DE5A0DAE259F1E5E007C18AC /* Preview Content */,
+			);
+			path = "Day17-Divider";
+			sourceTree = "<group>";
+		};
+		DE5A0DAE259F1E5E007C18AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE5A0DAF259F1E5E007C18AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE5A0DA4259F1E5B007C18AC /* Day17-Divider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5A0DB4259F1E5E007C18AC /* Build configuration list for PBXNativeTarget "Day17-Divider" */;
+			buildPhases = (
+				DE5A0DA1259F1E5B007C18AC /* Sources */,
+				DE5A0DA2259F1E5B007C18AC /* Frameworks */,
+				DE5A0DA3259F1E5B007C18AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day17-Divider";
+			productName = "Day17-Divider";
+			productReference = DE5A0DA5259F1E5B007C18AC /* Day17-Divider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE5A0D9D259F1E5B007C18AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DE5A0DA4259F1E5B007C18AC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DE5A0DA0259F1E5B007C18AC /* Build configuration list for PBXProject "Day17-Divider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE5A0D9C259F1E5B007C18AC;
+			productRefGroup = DE5A0DA6259F1E5B007C18AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE5A0DA4259F1E5B007C18AC /* Day17-Divider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE5A0DA3259F1E5B007C18AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5A0DB0259F1E5E007C18AC /* Preview Assets.xcassets in Resources */,
+				DE5A0DAD259F1E5E007C18AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE5A0DA1259F1E5B007C18AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5A0DAB259F1E5B007C18AC /* ContentView.swift in Sources */,
+				DE5A0DB9259F1E77007C18AC /* Divider_Ornek1.swift in Sources */,
+				DE5A0DBC259F1F8A007C18AC /* Divider_Ornek2.swift in Sources */,
+				DE5A0DA9259F1E5B007C18AC /* Day17_DividerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE5A0DB2259F1E5E007C18AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE5A0DB3259F1E5E007C18AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE5A0DB5259F1E5E007C18AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day17-Divider/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day17-Divider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day17-Divider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE5A0DB6259F1E5E007C18AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day17-Divider/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day17-Divider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day17-Divider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE5A0DA0259F1E5B007C18AC /* Build configuration list for PBXProject "Day17-Divider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5A0DB2259F1E5E007C18AC /* Debug */,
+				DE5A0DB3259F1E5E007C18AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5A0DB4259F1E5E007C18AC /* Build configuration list for PBXNativeTarget "Day17-Divider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5A0DB5259F1E5E007C18AC /* Debug */,
+				DE5A0DB6259F1E5E007C18AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE5A0D9D259F1E5B007C18AC /* Project object */;
+}
