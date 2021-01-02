@@ -7,35 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE5A0E37259F7848007C18AC /* DikdortgenselSekillerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A0E36259F7848007C18AC /* DikdortgenselSekillerApp.swift */; };
-		DE5A0E39259F7848007C18AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A0E38259F7848007C18AC /* ContentView.swift */; };
-		DE5A0E3B259F784B007C18AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5A0E3A259F784B007C18AC /* Assets.xcassets */; };
-		DE5A0E3E259F784B007C18AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5A0E3D259F784B007C18AC /* Preview Assets.xcassets */; };
-		DE5A0E47259F7861007C18AC /* Dikdortgen_Ornek1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A0E46259F7861007C18AC /* Dikdortgen_Ornek1.swift */; };
-		DE5A0E4A259F7971007C18AC /* Dikdortgen_Ornek2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A0E49259F7971007C18AC /* Dikdortgen_Ornek2.swift */; };
-		DE5A0E50259F7A55007C18AC /* Dikdortgen_Ornek3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A0E4F259F7A55007C18AC /* Dikdortgen_Ornek3.swift */; };
-		DE5A0E54259F7CC7007C18AC /* Dikdortgen_Ornek4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A0E53259F7CC7007C18AC /* Dikdortgen_Ornek4.swift */; };
-		DE5A0E57259F7DF4007C18AC /* Dikdortgen_Ornek5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A0E56259F7DF4007C18AC /* Dikdortgen_Ornek5.swift */; };
-		DE5A0E5A259F7F69007C18AC /* Dikdortgen_Ornek6.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A0E59259F7F69007C18AC /* Dikdortgen_Ornek6.swift */; };
+		DEF8E16525A03E3D005FFBEB /* Day22_InsetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8E16425A03E3D005FFBEB /* Day22_InsetApp.swift */; };
+		DEF8E16725A03E3D005FFBEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8E16625A03E3D005FFBEB /* ContentView.swift */; };
+		DEF8E16925A03E3E005FFBEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF8E16825A03E3E005FFBEB /* Assets.xcassets */; };
+		DEF8E16C25A03E3E005FFBEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF8E16B25A03E3E005FFBEB /* Preview Assets.xcassets */; };
+		DEF8E17525A03E6B005FFBEB /* Inset_Ornek1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8E17425A03E6B005FFBEB /* Inset_Ornek1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE5A0E33259F7848007C18AC /* DikdortgenselSekiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DikdortgenselSekiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE5A0E36259F7848007C18AC /* DikdortgenselSekillerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DikdortgenselSekillerApp.swift; sourceTree = "<group>"; };
-		DE5A0E38259F7848007C18AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DE5A0E3A259F784B007C18AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE5A0E3D259F784B007C18AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DE5A0E3F259F784B007C18AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE5A0E46259F7861007C18AC /* Dikdortgen_Ornek1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikdortgen_Ornek1.swift; sourceTree = "<group>"; };
-		DE5A0E49259F7971007C18AC /* Dikdortgen_Ornek2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikdortgen_Ornek2.swift; sourceTree = "<group>"; };
-		DE5A0E4F259F7A55007C18AC /* Dikdortgen_Ornek3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikdortgen_Ornek3.swift; sourceTree = "<group>"; };
-		DE5A0E53259F7CC7007C18AC /* Dikdortgen_Ornek4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikdortgen_Ornek4.swift; sourceTree = "<group>"; };
-		DE5A0E56259F7DF4007C18AC /* Dikdortgen_Ornek5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikdortgen_Ornek5.swift; sourceTree = "<group>"; };
-		DE5A0E59259F7F69007C18AC /* Dikdortgen_Ornek6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikdortgen_Ornek6.swift; sourceTree = "<group>"; };
+		DEF8E16125A03E3D005FFBEB /* Day22-Inset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day22-Inset.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF8E16425A03E3D005FFBEB /* Day22_InsetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day22_InsetApp.swift; sourceTree = "<group>"; };
+		DEF8E16625A03E3D005FFBEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DEF8E16825A03E3E005FFBEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEF8E16B25A03E3E005FFBEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEF8E16D25A03E3E005FFBEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF8E17425A03E6B005FFBEB /* Inset_Ornek1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inset_Ornek1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DE5A0E30259F7848007C18AC /* Frameworks */ = {
+		DEF8E15E25A03E3D005FFBEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,44 +35,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE5A0E2A259F7848007C18AC = {
+		DEF8E15825A03E3D005FFBEB = {
 			isa = PBXGroup;
 			children = (
-				DE5A0E35259F7848007C18AC /* DikdortgenselSekiller */,
-				DE5A0E34259F7848007C18AC /* Products */,
+				DEF8E16325A03E3D005FFBEB /* Day22-Inset */,
+				DEF8E16225A03E3D005FFBEB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DE5A0E34259F7848007C18AC /* Products */ = {
+		DEF8E16225A03E3D005FFBEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE5A0E33259F7848007C18AC /* DikdortgenselSekiller.app */,
+				DEF8E16125A03E3D005FFBEB /* Day22-Inset.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE5A0E35259F7848007C18AC /* DikdortgenselSekiller */ = {
+		DEF8E16325A03E3D005FFBEB /* Day22-Inset */ = {
 			isa = PBXGroup;
 			children = (
-				DE5A0E36259F7848007C18AC /* DikdortgenselSekillerApp.swift */,
-				DE5A0E38259F7848007C18AC /* ContentView.swift */,
-				DE5A0E46259F7861007C18AC /* Dikdortgen_Ornek1.swift */,
-				DE5A0E49259F7971007C18AC /* Dikdortgen_Ornek2.swift */,
-				DE5A0E4F259F7A55007C18AC /* Dikdortgen_Ornek3.swift */,
-				DE5A0E53259F7CC7007C18AC /* Dikdortgen_Ornek4.swift */,
-				DE5A0E56259F7DF4007C18AC /* Dikdortgen_Ornek5.swift */,
-				DE5A0E59259F7F69007C18AC /* Dikdortgen_Ornek6.swift */,
-				DE5A0E3A259F784B007C18AC /* Assets.xcassets */,
-				DE5A0E3F259F784B007C18AC /* Info.plist */,
-				DE5A0E3C259F784B007C18AC /* Preview Content */,
+				DEF8E16425A03E3D005FFBEB /* Day22_InsetApp.swift */,
+				DEF8E16625A03E3D005FFBEB /* ContentView.swift */,
+				DEF8E17425A03E6B005FFBEB /* Inset_Ornek1.swift */,
+				DEF8E16825A03E3E005FFBEB /* Assets.xcassets */,
+				DEF8E16D25A03E3E005FFBEB /* Info.plist */,
+				DEF8E16A25A03E3E005FFBEB /* Preview Content */,
 			);
-			path = DikdortgenselSekiller;
+			path = "Day22-Inset";
 			sourceTree = "<group>";
 		};
-		DE5A0E3C259F784B007C18AC /* Preview Content */ = {
+		DEF8E16A25A03E3E005FFBEB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DE5A0E3D259F784B007C18AC /* Preview Assets.xcassets */,
+				DEF8E16B25A03E3E005FFBEB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -90,38 +75,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE5A0E32259F7848007C18AC /* DikdortgenselSekiller */ = {
+		DEF8E16025A03E3D005FFBEB /* Day22-Inset */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE5A0E42259F784B007C18AC /* Build configuration list for PBXNativeTarget "DikdortgenselSekiller" */;
+			buildConfigurationList = DEF8E17025A03E3E005FFBEB /* Build configuration list for PBXNativeTarget "Day22-Inset" */;
 			buildPhases = (
-				DE5A0E2F259F7848007C18AC /* Sources */,
-				DE5A0E30259F7848007C18AC /* Frameworks */,
-				DE5A0E31259F7848007C18AC /* Resources */,
+				DEF8E15D25A03E3D005FFBEB /* Sources */,
+				DEF8E15E25A03E3D005FFBEB /* Frameworks */,
+				DEF8E15F25A03E3D005FFBEB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DikdortgenselSekiller;
-			productName = DikdortgenselSekiller;
-			productReference = DE5A0E33259F7848007C18AC /* DikdortgenselSekiller.app */;
+			name = "Day22-Inset";
+			productName = "Day22-Inset";
+			productReference = DEF8E16125A03E3D005FFBEB /* Day22-Inset.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DE5A0E2B259F7848007C18AC /* Project object */ = {
+		DEF8E15925A03E3D005FFBEB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					DE5A0E32259F7848007C18AC = {
+					DEF8E16025A03E3D005FFBEB = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = DE5A0E2E259F7848007C18AC /* Build configuration list for PBXProject "DikdortgenselSekiller" */;
+			buildConfigurationList = DEF8E15C25A03E3D005FFBEB /* Build configuration list for PBXProject "Day22-Inset" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,48 +114,43 @@
 				en,
 				Base,
 			);
-			mainGroup = DE5A0E2A259F7848007C18AC;
-			productRefGroup = DE5A0E34259F7848007C18AC /* Products */;
+			mainGroup = DEF8E15825A03E3D005FFBEB;
+			productRefGroup = DEF8E16225A03E3D005FFBEB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE5A0E32259F7848007C18AC /* DikdortgenselSekiller */,
+				DEF8E16025A03E3D005FFBEB /* Day22-Inset */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DE5A0E31259F7848007C18AC /* Resources */ = {
+		DEF8E15F25A03E3D005FFBEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE5A0E3E259F784B007C18AC /* Preview Assets.xcassets in Resources */,
-				DE5A0E3B259F784B007C18AC /* Assets.xcassets in Resources */,
+				DEF8E16C25A03E3E005FFBEB /* Preview Assets.xcassets in Resources */,
+				DEF8E16925A03E3E005FFBEB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DE5A0E2F259F7848007C18AC /* Sources */ = {
+		DEF8E15D25A03E3D005FFBEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE5A0E50259F7A55007C18AC /* Dikdortgen_Ornek3.swift in Sources */,
-				DE5A0E5A259F7F69007C18AC /* Dikdortgen_Ornek6.swift in Sources */,
-				DE5A0E39259F7848007C18AC /* ContentView.swift in Sources */,
-				DE5A0E57259F7DF4007C18AC /* Dikdortgen_Ornek5.swift in Sources */,
-				DE5A0E4A259F7971007C18AC /* Dikdortgen_Ornek2.swift in Sources */,
-				DE5A0E37259F7848007C18AC /* DikdortgenselSekillerApp.swift in Sources */,
-				DE5A0E47259F7861007C18AC /* Dikdortgen_Ornek1.swift in Sources */,
-				DE5A0E54259F7CC7007C18AC /* Dikdortgen_Ornek4.swift in Sources */,
+				DEF8E16725A03E3D005FFBEB /* ContentView.swift in Sources */,
+				DEF8E17525A03E6B005FFBEB /* Inset_Ornek1.swift in Sources */,
+				DEF8E16525A03E3D005FFBEB /* Day22_InsetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DE5A0E40259F784B007C18AC /* Debug */ = {
+		DEF8E16E25A03E3E005FFBEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		DE5A0E41259F784B007C18AC /* Release */ = {
+		DEF8E16F25A03E3E005FFBEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,44 +266,44 @@
 			};
 			name = Release;
 		};
-		DE5A0E43259F784B007C18AC /* Debug */ = {
+		DEF8E17125A03E3E005FFBEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"DikdortgenselSekiller/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Day22-Inset/Preview Content\"";
 				DEVELOPMENT_TEAM = 7UTB6LU2LV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = DikdortgenselSekiller/Info.plist;
+				INFOPLIST_FILE = "Day22-Inset/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.calidustech.DikdortgenselSekiller;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day22-Inset";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DE5A0E44259F784B007C18AC /* Release */ = {
+		DEF8E17225A03E3E005FFBEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"DikdortgenselSekiller/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Day22-Inset/Preview Content\"";
 				DEVELOPMENT_TEAM = 7UTB6LU2LV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = DikdortgenselSekiller/Info.plist;
+				INFOPLIST_FILE = "Day22-Inset/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.calidustech.DikdortgenselSekiller;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day22-Inset";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE5A0E2E259F7848007C18AC /* Build configuration list for PBXProject "DikdortgenselSekiller" */ = {
+		DEF8E15C25A03E3D005FFBEB /* Build configuration list for PBXProject "Day22-Inset" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE5A0E40259F784B007C18AC /* Debug */,
-				DE5A0E41259F784B007C18AC /* Release */,
+				DEF8E16E25A03E3E005FFBEB /* Debug */,
+				DEF8E16F25A03E3E005FFBEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE5A0E42259F784B007C18AC /* Build configuration list for PBXNativeTarget "DikdortgenselSekiller" */ = {
+		DEF8E17025A03E3E005FFBEB /* Build configuration list for PBXNativeTarget "Day22-Inset" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE5A0E43259F784B007C18AC /* Debug */,
-				DE5A0E44259F784B007C18AC /* Release */,
+				DEF8E17125A03E3E005FFBEB /* Debug */,
+				DEF8E17225A03E3E005FFBEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DE5A0E2B259F7848007C18AC /* Project object */;
+	rootObject = DEF8E15925A03E3D005FFBEB /* Project object */;
 }

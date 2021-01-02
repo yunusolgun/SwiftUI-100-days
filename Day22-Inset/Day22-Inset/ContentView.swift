@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  DikdortgenselSekiller
+//  Day22-Inset
 //
-//  Created by yunus olgun on 1.01.2021.
+//  Created by yunus olgun on 2.01.2021.
 //
 
 import SwiftUI
