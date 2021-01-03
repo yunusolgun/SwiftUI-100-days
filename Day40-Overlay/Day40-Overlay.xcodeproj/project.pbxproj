@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE40B9B525A1D9EB00A6DC0F /* Day40_OverlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE40B9B425A1D9EB00A6DC0F /* Day40_OverlayApp.swift */; };
+		DE40B9B725A1D9EB00A6DC0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE40B9B625A1D9EB00A6DC0F /* ContentView.swift */; };
+		DE40B9B925A1D9EC00A6DC0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE40B9B825A1D9EC00A6DC0F /* Assets.xcassets */; };
+		DE40B9BC25A1D9EC00A6DC0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE40B9BB25A1D9EC00A6DC0F /* Preview Assets.xcassets */; };
+		DE40B9C525A1DA0F00A6DC0F /* Overlay_Ornek1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE40B9C425A1DA0F00A6DC0F /* Overlay_Ornek1.swift */; };
+		DE40B9C825A1DBCF00A6DC0F /* Overlay_Ornek2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE40B9C725A1DBCF00A6DC0F /* Overlay_Ornek2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE40B9B125A1D9EB00A6DC0F /* Day40-Overlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day40-Overlay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE40B9B425A1D9EB00A6DC0F /* Day40_OverlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day40_OverlayApp.swift; sourceTree = "<group>"; };
+		DE40B9B625A1D9EB00A6DC0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE40B9B825A1D9EC00A6DC0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE40B9BB25A1D9EC00A6DC0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE40B9BD25A1D9EC00A6DC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE40B9C425A1DA0F00A6DC0F /* Overlay_Ornek1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay_Ornek1.swift; sourceTree = "<group>"; };
+		DE40B9C725A1DBCF00A6DC0F /* Overlay_Ornek2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay_Ornek2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE40B9AE25A1D9EB00A6DC0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE40B9A825A1D9EB00A6DC0F = {
+			isa = PBXGroup;
+			children = (
+				DE40B9B325A1D9EB00A6DC0F /* Day40-Overlay */,
+				DE40B9B225A1D9EB00A6DC0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE40B9B225A1D9EB00A6DC0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE40B9B125A1D9EB00A6DC0F /* Day40-Overlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE40B9B325A1D9EB00A6DC0F /* Day40-Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				DE40B9B425A1D9EB00A6DC0F /* Day40_OverlayApp.swift */,
+				DE40B9B625A1D9EB00A6DC0F /* ContentView.swift */,
+				DE40B9C425A1DA0F00A6DC0F /* Overlay_Ornek1.swift */,
+				DE40B9C725A1DBCF00A6DC0F /* Overlay_Ornek2.swift */,
+				DE40B9B825A1D9EC00A6DC0F /* Assets.xcassets */,
+				DE40B9BD25A1D9EC00A6DC0F /* Info.plist */,
+				DE40B9BA25A1D9EC00A6DC0F /* Preview Content */,
+			);
+			path = "Day40-Overlay";
+			sourceTree = "<group>";
+		};
+		DE40B9BA25A1D9EC00A6DC0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE40B9BB25A1D9EC00A6DC0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE40B9B025A1D9EB00A6DC0F /* Day40-Overlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE40B9C025A1D9EC00A6DC0F /* Build configuration list for PBXNativeTarget "Day40-Overlay" */;
+			buildPhases = (
+				DE40B9AD25A1D9EB00A6DC0F /* Sources */,
+				DE40B9AE25A1D9EB00A6DC0F /* Frameworks */,
+				DE40B9AF25A1D9EB00A6DC0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day40-Overlay";
+			productName = "Day40-Overlay";
+			productReference = DE40B9B125A1D9EB00A6DC0F /* Day40-Overlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE40B9A925A1D9EB00A6DC0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DE40B9B025A1D9EB00A6DC0F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DE40B9AC25A1D9EB00A6DC0F /* Build configuration list for PBXProject "Day40-Overlay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE40B9A825A1D9EB00A6DC0F;
+			productRefGroup = DE40B9B225A1D9EB00A6DC0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE40B9B025A1D9EB00A6DC0F /* Day40-Overlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE40B9AF25A1D9EB00A6DC0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE40B9BC25A1D9EC00A6DC0F /* Preview Assets.xcassets in Resources */,
+				DE40B9B925A1D9EC00A6DC0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE40B9AD25A1D9EB00A6DC0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE40B9B725A1D9EB00A6DC0F /* ContentView.swift in Sources */,
+				DE40B9C825A1DBCF00A6DC0F /* Overlay_Ornek2.swift in Sources */,
+				DE40B9B525A1D9EB00A6DC0F /* Day40_OverlayApp.swift in Sources */,
+				DE40B9C525A1DA0F00A6DC0F /* Overlay_Ornek1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE40B9BE25A1D9EC00A6DC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE40B9BF25A1D9EC00A6DC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE40B9C125A1D9EC00A6DC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day40-Overlay/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day40-Overlay/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day40-Overlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE40B9C225A1D9EC00A6DC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day40-Overlay/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day40-Overlay/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day40-Overlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE40B9AC25A1D9EB00A6DC0F /* Build configuration list for PBXProject "Day40-Overlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE40B9BE25A1D9EC00A6DC0F /* Debug */,
+				DE40B9BF25A1D9EC00A6DC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE40B9C025A1D9EC00A6DC0F /* Build configuration list for PBXNativeTarget "Day40-Overlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE40B9C125A1D9EC00A6DC0F /* Debug */,
+				DE40B9C225A1D9EC00A6DC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE40B9A925A1D9EB00A6DC0F /* Project object */;
+}
