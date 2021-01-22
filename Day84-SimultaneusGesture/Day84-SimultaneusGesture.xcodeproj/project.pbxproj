@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE9656A825BB54B400A7F583 /* Day84_SimultaneusGestureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9656A725BB54B400A7F583 /* Day84_SimultaneusGestureApp.swift */; };
+		DE9656AA25BB54B400A7F583 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9656A925BB54B400A7F583 /* ContentView.swift */; };
+		DE9656AC25BB54B700A7F583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9656AB25BB54B700A7F583 /* Assets.xcassets */; };
+		DE9656AF25BB54B700A7F583 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9656AE25BB54B700A7F583 /* Preview Assets.xcassets */; };
+		DE9656B825BB551B00A7F583 /* Ornek1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9656B725BB551B00A7F583 /* Ornek1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE9656A425BB54B400A7F583 /* Day84-SimultaneusGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day84-SimultaneusGesture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9656A725BB54B400A7F583 /* Day84_SimultaneusGestureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day84_SimultaneusGestureApp.swift; sourceTree = "<group>"; };
+		DE9656A925BB54B400A7F583 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE9656AB25BB54B700A7F583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE9656AE25BB54B700A7F583 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE9656B025BB54B700A7F583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9656B725BB551B00A7F583 /* Ornek1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE9656A125BB54B400A7F583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE96569B25BB54B400A7F583 = {
+			isa = PBXGroup;
+			children = (
+				DE9656A625BB54B400A7F583 /* Day84-SimultaneusGesture */,
+				DE9656A525BB54B400A7F583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE9656A525BB54B400A7F583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE9656A425BB54B400A7F583 /* Day84-SimultaneusGesture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE9656A625BB54B400A7F583 /* Day84-SimultaneusGesture */ = {
+			isa = PBXGroup;
+			children = (
+				DE9656A725BB54B400A7F583 /* Day84_SimultaneusGestureApp.swift */,
+				DE9656B725BB551B00A7F583 /* Ornek1.swift */,
+				DE9656A925BB54B400A7F583 /* ContentView.swift */,
+				DE9656AB25BB54B700A7F583 /* Assets.xcassets */,
+				DE9656B025BB54B700A7F583 /* Info.plist */,
+				DE9656AD25BB54B700A7F583 /* Preview Content */,
+			);
+			path = "Day84-SimultaneusGesture";
+			sourceTree = "<group>";
+		};
+		DE9656AD25BB54B700A7F583 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE9656AE25BB54B700A7F583 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE9656A325BB54B400A7F583 /* Day84-SimultaneusGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9656B325BB54B700A7F583 /* Build configuration list for PBXNativeTarget "Day84-SimultaneusGesture" */;
+			buildPhases = (
+				DE9656A025BB54B400A7F583 /* Sources */,
+				DE9656A125BB54B400A7F583 /* Frameworks */,
+				DE9656A225BB54B400A7F583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day84-SimultaneusGesture";
+			productName = "Day84-SimultaneusGesture";
+			productReference = DE9656A425BB54B400A7F583 /* Day84-SimultaneusGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE96569C25BB54B400A7F583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DE9656A325BB54B400A7F583 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DE96569F25BB54B400A7F583 /* Build configuration list for PBXProject "Day84-SimultaneusGesture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE96569B25BB54B400A7F583;
+			productRefGroup = DE9656A525BB54B400A7F583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE9656A325BB54B400A7F583 /* Day84-SimultaneusGesture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE9656A225BB54B400A7F583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9656AF25BB54B700A7F583 /* Preview Assets.xcassets in Resources */,
+				DE9656AC25BB54B700A7F583 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE9656A025BB54B400A7F583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9656AA25BB54B400A7F583 /* ContentView.swift in Sources */,
+				DE9656A825BB54B400A7F583 /* Day84_SimultaneusGestureApp.swift in Sources */,
+				DE9656B825BB551B00A7F583 /* Ornek1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE9656B125BB54B700A7F583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE9656B225BB54B700A7F583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE9656B425BB54B700A7F583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day84-SimultaneusGesture/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day84-SimultaneusGesture/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day84-SimultaneusGesture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE9656B525BB54B700A7F583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day84-SimultaneusGesture/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day84-SimultaneusGesture/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day84-SimultaneusGesture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE96569F25BB54B400A7F583 /* Build configuration list for PBXProject "Day84-SimultaneusGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9656B125BB54B700A7F583 /* Debug */,
+				DE9656B225BB54B700A7F583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9656B325BB54B700A7F583 /* Build configuration list for PBXNativeTarget "Day84-SimultaneusGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9656B425BB54B700A7F583 /* Debug */,
+				DE9656B525BB54B700A7F583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE96569C25BB54B400A7F583 /* Project object */;
+}
