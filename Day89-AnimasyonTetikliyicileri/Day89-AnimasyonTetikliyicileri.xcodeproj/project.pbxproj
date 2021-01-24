@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE00ED8425BD593C0089BF3C /* Day89_AnimasyonTetikliyicileriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00ED8325BD593C0089BF3C /* Day89_AnimasyonTetikliyicileriApp.swift */; };
+		DE00ED8625BD593C0089BF3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00ED8525BD593C0089BF3C /* ContentView.swift */; };
+		DE00ED8825BD593D0089BF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE00ED8725BD593D0089BF3C /* Assets.xcassets */; };
+		DE00ED8B25BD593D0089BF3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE00ED8A25BD593D0089BF3C /* Preview Assets.xcassets */; };
+		DE00ED9425BD59520089BF3C /* Ornek1_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00ED9325BD59520089BF3C /* Ornek1_Button.swift */; };
+		DE00ED9725BD5DDF0089BF3C /* Ornek2_Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00ED9625BD5DDF0089BF3C /* Ornek2_Picker.swift */; };
+		DE00ED9A25BD64A40089BF3C /* Ornek3_Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00ED9925BD64A40089BF3C /* Ornek3_Slider.swift */; };
+		DE00ED9D25BD66060089BF3C /* Ornek4_Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00ED9C25BD66060089BF3C /* Ornek4_Stepper.swift */; };
+		DE00EDA025BD77210089BF3C /* Ornek5_Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00ED9F25BD77210089BF3C /* Ornek5_Toggle.swift */; };
+		DE00EDA325BD78FE0089BF3C /* Ornek6_OnAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00EDA225BD78FE0089BF3C /* Ornek6_OnAppear.swift */; };
+		DEF2A40B25BD7B0500B27429 /* Ornek7_OnDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A40A25BD7B0500B27429 /* Ornek7_OnDisappear.swift */; };
+		DEF2A40E25BD7DE000B27429 /* Ornek8_DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A40D25BD7DE000B27429 /* Ornek8_DragGesture.swift */; };
+		DEF2A41125BD810900B27429 /* Ornek9_LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A41025BD810900B27429 /* Ornek9_LongPressGesture.swift */; };
+		DEF2A41425BD827D00B27429 /* Ornek10_TapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A41325BD827D00B27429 /* Ornek10_TapGesture.swift */; };
+		DEF2A41725BD841800B27429 /* Ornek11_MagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A41625BD841800B27429 /* Ornek11_MagnificationGesture.swift */; };
+		DEF2A41A25BD86A300B27429 /* Ornek12_RotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A41925BD86A300B27429 /* Ornek12_RotationGesture.swift */; };
+		DEF2A41D25BD88E100B27429 /* Ornek13_ScrollView_Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A41C25BD88E100B27429 /* Ornek13_ScrollView_Trigger.swift */; };
+		DEF2A42025BD8ADC00B27429 /* Ornek14_TriggerPopupSorusu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A41F25BD8ADC00B27429 /* Ornek14_TriggerPopupSorusu.swift */; };
+		DEF2A42325BD8F0400B27429 /* Ornek15_TriggerImageSorusu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A42225BD8F0400B27429 /* Ornek15_TriggerImageSorusu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE00ED8025BD593C0089BF3C /* Day89-AnimasyonTetikliyicileri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day89-AnimasyonTetikliyicileri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE00ED8325BD593C0089BF3C /* Day89_AnimasyonTetikliyicileriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day89_AnimasyonTetikliyicileriApp.swift; sourceTree = "<group>"; };
+		DE00ED8525BD593C0089BF3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE00ED8725BD593D0089BF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE00ED8A25BD593D0089BF3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE00ED8C25BD593D0089BF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE00ED9325BD59520089BF3C /* Ornek1_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek1_Button.swift; sourceTree = "<group>"; };
+		DE00ED9625BD5DDF0089BF3C /* Ornek2_Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek2_Picker.swift; sourceTree = "<group>"; };
+		DE00ED9925BD64A40089BF3C /* Ornek3_Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek3_Slider.swift; sourceTree = "<group>"; };
+		DE00ED9C25BD66060089BF3C /* Ornek4_Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek4_Stepper.swift; sourceTree = "<group>"; };
+		DE00ED9F25BD77210089BF3C /* Ornek5_Toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek5_Toggle.swift; sourceTree = "<group>"; };
+		DE00EDA225BD78FE0089BF3C /* Ornek6_OnAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek6_OnAppear.swift; sourceTree = "<group>"; };
+		DEF2A40A25BD7B0500B27429 /* Ornek7_OnDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek7_OnDisappear.swift; sourceTree = "<group>"; };
+		DEF2A40D25BD7DE000B27429 /* Ornek8_DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek8_DragGesture.swift; sourceTree = "<group>"; };
+		DEF2A41025BD810900B27429 /* Ornek9_LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek9_LongPressGesture.swift; sourceTree = "<group>"; };
+		DEF2A41325BD827D00B27429 /* Ornek10_TapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek10_TapGesture.swift; sourceTree = "<group>"; };
+		DEF2A41625BD841800B27429 /* Ornek11_MagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek11_MagnificationGesture.swift; sourceTree = "<group>"; };
+		DEF2A41925BD86A300B27429 /* Ornek12_RotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek12_RotationGesture.swift; sourceTree = "<group>"; };
+		DEF2A41C25BD88E100B27429 /* Ornek13_ScrollView_Trigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek13_ScrollView_Trigger.swift; sourceTree = "<group>"; };
+		DEF2A41F25BD8ADC00B27429 /* Ornek14_TriggerPopupSorusu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek14_TriggerPopupSorusu.swift; sourceTree = "<group>"; };
+		DEF2A42225BD8F0400B27429 /* Ornek15_TriggerImageSorusu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek15_TriggerImageSorusu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE00ED7D25BD593C0089BF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE00ED7725BD593C0089BF3C = {
+			isa = PBXGroup;
+			children = (
+				DE00ED8225BD593C0089BF3C /* Day89-AnimasyonTetikliyicileri */,
+				DE00ED8125BD593C0089BF3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE00ED8125BD593C0089BF3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE00ED8025BD593C0089BF3C /* Day89-AnimasyonTetikliyicileri.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE00ED8225BD593C0089BF3C /* Day89-AnimasyonTetikliyicileri */ = {
+			isa = PBXGroup;
+			children = (
+				DE00ED8325BD593C0089BF3C /* Day89_AnimasyonTetikliyicileriApp.swift */,
+				DE00ED8525BD593C0089BF3C /* ContentView.swift */,
+				DE00ED9325BD59520089BF3C /* Ornek1_Button.swift */,
+				DE00ED9625BD5DDF0089BF3C /* Ornek2_Picker.swift */,
+				DE00ED9925BD64A40089BF3C /* Ornek3_Slider.swift */,
+				DE00ED9C25BD66060089BF3C /* Ornek4_Stepper.swift */,
+				DE00ED9F25BD77210089BF3C /* Ornek5_Toggle.swift */,
+				DE00EDA225BD78FE0089BF3C /* Ornek6_OnAppear.swift */,
+				DEF2A40A25BD7B0500B27429 /* Ornek7_OnDisappear.swift */,
+				DEF2A40D25BD7DE000B27429 /* Ornek8_DragGesture.swift */,
+				DEF2A41025BD810900B27429 /* Ornek9_LongPressGesture.swift */,
+				DEF2A41325BD827D00B27429 /* Ornek10_TapGesture.swift */,
+				DEF2A41625BD841800B27429 /* Ornek11_MagnificationGesture.swift */,
+				DEF2A41925BD86A300B27429 /* Ornek12_RotationGesture.swift */,
+				DEF2A41C25BD88E100B27429 /* Ornek13_ScrollView_Trigger.swift */,
+				DEF2A41F25BD8ADC00B27429 /* Ornek14_TriggerPopupSorusu.swift */,
+				DEF2A42225BD8F0400B27429 /* Ornek15_TriggerImageSorusu.swift */,
+				DE00ED8725BD593D0089BF3C /* Assets.xcassets */,
+				DE00ED8C25BD593D0089BF3C /* Info.plist */,
+				DE00ED8925BD593D0089BF3C /* Preview Content */,
+			);
+			path = "Day89-AnimasyonTetikliyicileri";
+			sourceTree = "<group>";
+		};
+		DE00ED8925BD593D0089BF3C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE00ED8A25BD593D0089BF3C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE00ED7F25BD593C0089BF3C /* Day89-AnimasyonTetikliyicileri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE00ED8F25BD593D0089BF3C /* Build configuration list for PBXNativeTarget "Day89-AnimasyonTetikliyicileri" */;
+			buildPhases = (
+				DE00ED7C25BD593C0089BF3C /* Sources */,
+				DE00ED7D25BD593C0089BF3C /* Frameworks */,
+				DE00ED7E25BD593C0089BF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day89-AnimasyonTetikliyicileri";
+			productName = "Day89-AnimasyonTetikliyicileri";
+			productReference = DE00ED8025BD593C0089BF3C /* Day89-AnimasyonTetikliyicileri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE00ED7825BD593C0089BF3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DE00ED7F25BD593C0089BF3C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DE00ED7B25BD593C0089BF3C /* Build configuration list for PBXProject "Day89-AnimasyonTetikliyicileri" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE00ED7725BD593C0089BF3C;
+			productRefGroup = DE00ED8125BD593C0089BF3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE00ED7F25BD593C0089BF3C /* Day89-AnimasyonTetikliyicileri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE00ED7E25BD593C0089BF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE00ED8B25BD593D0089BF3C /* Preview Assets.xcassets in Resources */,
+				DE00ED8825BD593D0089BF3C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE00ED7C25BD593C0089BF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF2A40B25BD7B0500B27429 /* Ornek7_OnDisappear.swift in Sources */,
+				DEF2A42325BD8F0400B27429 /* Ornek15_TriggerImageSorusu.swift in Sources */,
+				DE00ED9725BD5DDF0089BF3C /* Ornek2_Picker.swift in Sources */,
+				DEF2A41725BD841800B27429 /* Ornek11_MagnificationGesture.swift in Sources */,
+				DEF2A41125BD810900B27429 /* Ornek9_LongPressGesture.swift in Sources */,
+				DEF2A41A25BD86A300B27429 /* Ornek12_RotationGesture.swift in Sources */,
+				DE00EDA025BD77210089BF3C /* Ornek5_Toggle.swift in Sources */,
+				DE00EDA325BD78FE0089BF3C /* Ornek6_OnAppear.swift in Sources */,
+				DE00ED8625BD593C0089BF3C /* ContentView.swift in Sources */,
+				DEF2A41D25BD88E100B27429 /* Ornek13_ScrollView_Trigger.swift in Sources */,
+				DE00ED9425BD59520089BF3C /* Ornek1_Button.swift in Sources */,
+				DE00ED9A25BD64A40089BF3C /* Ornek3_Slider.swift in Sources */,
+				DE00ED9D25BD66060089BF3C /* Ornek4_Stepper.swift in Sources */,
+				DEF2A40E25BD7DE000B27429 /* Ornek8_DragGesture.swift in Sources */,
+				DEF2A41425BD827D00B27429 /* Ornek10_TapGesture.swift in Sources */,
+				DEF2A42025BD8ADC00B27429 /* Ornek14_TriggerPopupSorusu.swift in Sources */,
+				DE00ED8425BD593C0089BF3C /* Day89_AnimasyonTetikliyicileriApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE00ED8D25BD593D0089BF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE00ED8E25BD593D0089BF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE00ED9025BD593D0089BF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day89-AnimasyonTetikliyicileri/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day89-AnimasyonTetikliyicileri/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day89-AnimasyonTetikliyicileri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE00ED9125BD593D0089BF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day89-AnimasyonTetikliyicileri/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day89-AnimasyonTetikliyicileri/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day89-AnimasyonTetikliyicileri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE00ED7B25BD593C0089BF3C /* Build configuration list for PBXProject "Day89-AnimasyonTetikliyicileri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE00ED8D25BD593D0089BF3C /* Debug */,
+				DE00ED8E25BD593D0089BF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE00ED8F25BD593D0089BF3C /* Build configuration list for PBXNativeTarget "Day89-AnimasyonTetikliyicileri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE00ED9025BD593D0089BF3C /* Debug */,
+				DE00ED9125BD593D0089BF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE00ED7825BD593C0089BF3C /* Project object */;
+}
