@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE5A5B8625BF09F20054B2D7 /* Day90_AnimasyonSecenekleriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A5B8525BF09F20054B2D7 /* Day90_AnimasyonSecenekleriApp.swift */; };
+		DE5A5B8825BF09F20054B2D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A5B8725BF09F20054B2D7 /* ContentView.swift */; };
+		DE5A5B8A25BF09F30054B2D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5A5B8925BF09F30054B2D7 /* Assets.xcassets */; };
+		DE5A5B8D25BF09F30054B2D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5A5B8C25BF09F30054B2D7 /* Preview Assets.xcassets */; };
+		DE5A5B9625BF0A3C0054B2D7 /* Ornek1_AnimationDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A5B9525BF0A3B0054B2D7 /* Ornek1_AnimationDuration.swift */; };
+		DE7EF09F25BF0C3A00E388FC /* Ornek1_AnimationDuration_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF09E25BF0C3A00E388FC /* Ornek1_AnimationDuration_2.swift */; };
+		DE7EF0A225BF0DF700E388FC /* Ornek2_Delay_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0A125BF0DF700E388FC /* Ornek2_Delay_Animation.swift */; };
+		DE7EF0A525BF103700E388FC /* Ornek2_Delay_Animation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0A425BF103700E388FC /* Ornek2_Delay_Animation2.swift */; };
+		DE7EF0A825BF11F200E388FC /* Ornek3_Animasyonlarin_Tekrarlanmasi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0A725BF11F200E388FC /* Ornek3_Animasyonlarin_Tekrarlanmasi.swift */; };
+		DE7EF0AB25BF154400E388FC /* Ornek4_AnimasyonEtkiAlanlari1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0AA25BF154400E388FC /* Ornek4_AnimasyonEtkiAlanlari1.swift */; };
+		DE7EF0AE25BF16E800E388FC /* Ornek4_AnimasyonEtkiAlanlari1_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0AD25BF16E800E388FC /* Ornek4_AnimasyonEtkiAlanlari1_2.swift */; };
+		DE7EF0B125BF187E00E388FC /* Ornek4_AnimasyonEtkiAlanlari1_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0B025BF187E00E388FC /* Ornek4_AnimasyonEtkiAlanlari1_3.swift */; };
+		DE7EF0B425BF19FE00E388FC /* Ornek5_AnimasyonEtkiAlanlari2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0B325BF19FD00E388FC /* Ornek5_AnimasyonEtkiAlanlari2.swift */; };
+		DE7EF0B725BF1BB600E388FC /* Ornek5_AnimasyonEtkiAlanlari2_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0B625BF1BB600E388FC /* Ornek5_AnimasyonEtkiAlanlari2_2.swift */; };
+		DE7EF0BA25BF30E500E388FC /* Ornek6_AnimasyonEtkiAlanlari3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0B925BF30E500E388FC /* Ornek6_AnimasyonEtkiAlanlari3.swift */; };
+		DE7EF0BD25BF34AF00E388FC /* Ornek6_AnimasyonEtkiAlanlari3_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0BC25BF34AF00E388FC /* Ornek6_AnimasyonEtkiAlanlari3_2.swift */; };
+		DE7EF0C025BF367E00E388FC /* Ornek7_AnimasyonEtkiAlanlari4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0BF25BF367E00E388FC /* Ornek7_AnimasyonEtkiAlanlari4.swift */; };
+		DE7EF0C325BF3B3A00E388FC /* Ornek8_AnimasyonCalismaHizi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0C225BF3B3A00E388FC /* Ornek8_AnimasyonCalismaHizi.swift */; };
+		DE7EF0C625BF3D8000E388FC /* Ornek9_AnimasyonIptal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0C525BF3D8000E388FC /* Ornek9_AnimasyonIptal.swift */; };
+		DE7EF0C925BF406500E388FC /* Ornek10_AnimasyonIptal2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF0C825BF406500E388FC /* Ornek10_AnimasyonIptal2.swift */; };
+		DEECD3F625BF44CE00E91AA4 /* Ornek11_AnimasyonSoru1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEECD3F525BF44CE00E91AA4 /* Ornek11_AnimasyonSoru1.swift */; };
+		DEECD3F925BF4A6900E91AA4 /* Ornek12_AnimasyonSoru2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEECD3F825BF4A6900E91AA4 /* Ornek12_AnimasyonSoru2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE5A5B8225BF09F20054B2D7 /* Day90-AnimasyonSecenekleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day90-AnimasyonSecenekleri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5A5B8525BF09F20054B2D7 /* Day90_AnimasyonSecenekleriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day90_AnimasyonSecenekleriApp.swift; sourceTree = "<group>"; };
+		DE5A5B8725BF09F20054B2D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE5A5B8925BF09F30054B2D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE5A5B8C25BF09F30054B2D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE5A5B8E25BF09F30054B2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5A5B9525BF0A3B0054B2D7 /* Ornek1_AnimationDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek1_AnimationDuration.swift; sourceTree = "<group>"; };
+		DE7EF09E25BF0C3A00E388FC /* Ornek1_AnimationDuration_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek1_AnimationDuration_2.swift; sourceTree = "<group>"; };
+		DE7EF0A125BF0DF700E388FC /* Ornek2_Delay_Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek2_Delay_Animation.swift; sourceTree = "<group>"; };
+		DE7EF0A425BF103700E388FC /* Ornek2_Delay_Animation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek2_Delay_Animation2.swift; sourceTree = "<group>"; };
+		DE7EF0A725BF11F200E388FC /* Ornek3_Animasyonlarin_Tekrarlanmasi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek3_Animasyonlarin_Tekrarlanmasi.swift; sourceTree = "<group>"; };
+		DE7EF0AA25BF154400E388FC /* Ornek4_AnimasyonEtkiAlanlari1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek4_AnimasyonEtkiAlanlari1.swift; sourceTree = "<group>"; };
+		DE7EF0AD25BF16E800E388FC /* Ornek4_AnimasyonEtkiAlanlari1_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek4_AnimasyonEtkiAlanlari1_2.swift; sourceTree = "<group>"; };
+		DE7EF0B025BF187E00E388FC /* Ornek4_AnimasyonEtkiAlanlari1_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek4_AnimasyonEtkiAlanlari1_3.swift; sourceTree = "<group>"; };
+		DE7EF0B325BF19FD00E388FC /* Ornek5_AnimasyonEtkiAlanlari2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek5_AnimasyonEtkiAlanlari2.swift; sourceTree = "<group>"; };
+		DE7EF0B625BF1BB600E388FC /* Ornek5_AnimasyonEtkiAlanlari2_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek5_AnimasyonEtkiAlanlari2_2.swift; sourceTree = "<group>"; };
+		DE7EF0B925BF30E500E388FC /* Ornek6_AnimasyonEtkiAlanlari3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek6_AnimasyonEtkiAlanlari3.swift; sourceTree = "<group>"; };
+		DE7EF0BC25BF34AF00E388FC /* Ornek6_AnimasyonEtkiAlanlari3_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek6_AnimasyonEtkiAlanlari3_2.swift; sourceTree = "<group>"; };
+		DE7EF0BF25BF367E00E388FC /* Ornek7_AnimasyonEtkiAlanlari4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek7_AnimasyonEtkiAlanlari4.swift; sourceTree = "<group>"; };
+		DE7EF0C225BF3B3A00E388FC /* Ornek8_AnimasyonCalismaHizi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek8_AnimasyonCalismaHizi.swift; sourceTree = "<group>"; };
+		DE7EF0C525BF3D8000E388FC /* Ornek9_AnimasyonIptal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek9_AnimasyonIptal.swift; sourceTree = "<group>"; };
+		DE7EF0C825BF406500E388FC /* Ornek10_AnimasyonIptal2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek10_AnimasyonIptal2.swift; sourceTree = "<group>"; };
+		DEECD3F525BF44CE00E91AA4 /* Ornek11_AnimasyonSoru1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek11_AnimasyonSoru1.swift; sourceTree = "<group>"; };
+		DEECD3F825BF4A6900E91AA4 /* Ornek12_AnimasyonSoru2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek12_AnimasyonSoru2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE5A5B7F25BF09F20054B2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE5A5B7925BF09F20054B2D7 = {
+			isa = PBXGroup;
+			children = (
+				DE5A5B8425BF09F20054B2D7 /* Day90-AnimasyonSecenekleri */,
+				DE5A5B8325BF09F20054B2D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE5A5B8325BF09F20054B2D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE5A5B8225BF09F20054B2D7 /* Day90-AnimasyonSecenekleri.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE5A5B8425BF09F20054B2D7 /* Day90-AnimasyonSecenekleri */ = {
+			isa = PBXGroup;
+			children = (
+				DE5A5B8525BF09F20054B2D7 /* Day90_AnimasyonSecenekleriApp.swift */,
+				DE5A5B8725BF09F20054B2D7 /* ContentView.swift */,
+				DE5A5B9525BF0A3B0054B2D7 /* Ornek1_AnimationDuration.swift */,
+				DE7EF09E25BF0C3A00E388FC /* Ornek1_AnimationDuration_2.swift */,
+				DE7EF0A125BF0DF700E388FC /* Ornek2_Delay_Animation.swift */,
+				DE7EF0A425BF103700E388FC /* Ornek2_Delay_Animation2.swift */,
+				DE7EF0A725BF11F200E388FC /* Ornek3_Animasyonlarin_Tekrarlanmasi.swift */,
+				DE7EF0AA25BF154400E388FC /* Ornek4_AnimasyonEtkiAlanlari1.swift */,
+				DE7EF0AD25BF16E800E388FC /* Ornek4_AnimasyonEtkiAlanlari1_2.swift */,
+				DE7EF0B025BF187E00E388FC /* Ornek4_AnimasyonEtkiAlanlari1_3.swift */,
+				DE7EF0B325BF19FD00E388FC /* Ornek5_AnimasyonEtkiAlanlari2.swift */,
+				DE7EF0B625BF1BB600E388FC /* Ornek5_AnimasyonEtkiAlanlari2_2.swift */,
+				DE7EF0B925BF30E500E388FC /* Ornek6_AnimasyonEtkiAlanlari3.swift */,
+				DE7EF0BC25BF34AF00E388FC /* Ornek6_AnimasyonEtkiAlanlari3_2.swift */,
+				DE7EF0BF25BF367E00E388FC /* Ornek7_AnimasyonEtkiAlanlari4.swift */,
+				DE7EF0C225BF3B3A00E388FC /* Ornek8_AnimasyonCalismaHizi.swift */,
+				DE7EF0C525BF3D8000E388FC /* Ornek9_AnimasyonIptal.swift */,
+				DE7EF0C825BF406500E388FC /* Ornek10_AnimasyonIptal2.swift */,
+				DEECD3F525BF44CE00E91AA4 /* Ornek11_AnimasyonSoru1.swift */,
+				DEECD3F825BF4A6900E91AA4 /* Ornek12_AnimasyonSoru2.swift */,
+				DE5A5B8925BF09F30054B2D7 /* Assets.xcassets */,
+				DE5A5B8E25BF09F30054B2D7 /* Info.plist */,
+				DE5A5B8B25BF09F30054B2D7 /* Preview Content */,
+			);
+			path = "Day90-AnimasyonSecenekleri";
+			sourceTree = "<group>";
+		};
+		DE5A5B8B25BF09F30054B2D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE5A5B8C25BF09F30054B2D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE5A5B8125BF09F20054B2D7 /* Day90-AnimasyonSecenekleri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5A5B9125BF09F30054B2D7 /* Build configuration list for PBXNativeTarget "Day90-AnimasyonSecenekleri" */;
+			buildPhases = (
+				DE5A5B7E25BF09F20054B2D7 /* Sources */,
+				DE5A5B7F25BF09F20054B2D7 /* Frameworks */,
+				DE5A5B8025BF09F20054B2D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day90-AnimasyonSecenekleri";
+			productName = "Day90-AnimasyonSecenekleri";
+			productReference = DE5A5B8225BF09F20054B2D7 /* Day90-AnimasyonSecenekleri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE5A5B7A25BF09F20054B2D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DE5A5B8125BF09F20054B2D7 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DE5A5B7D25BF09F20054B2D7 /* Build configuration list for PBXProject "Day90-AnimasyonSecenekleri" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE5A5B7925BF09F20054B2D7;
+			productRefGroup = DE5A5B8325BF09F20054B2D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE5A5B8125BF09F20054B2D7 /* Day90-AnimasyonSecenekleri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE5A5B8025BF09F20054B2D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5A5B8D25BF09F30054B2D7 /* Preview Assets.xcassets in Resources */,
+				DE5A5B8A25BF09F30054B2D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE5A5B7E25BF09F20054B2D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5A5B8825BF09F20054B2D7 /* ContentView.swift in Sources */,
+				DE7EF0AB25BF154400E388FC /* Ornek4_AnimasyonEtkiAlanlari1.swift in Sources */,
+				DE7EF0B725BF1BB600E388FC /* Ornek5_AnimasyonEtkiAlanlari2_2.swift in Sources */,
+				DE7EF0A225BF0DF700E388FC /* Ornek2_Delay_Animation.swift in Sources */,
+				DE7EF0A525BF103700E388FC /* Ornek2_Delay_Animation2.swift in Sources */,
+				DE7EF0A825BF11F200E388FC /* Ornek3_Animasyonlarin_Tekrarlanmasi.swift in Sources */,
+				DE5A5B9625BF0A3C0054B2D7 /* Ornek1_AnimationDuration.swift in Sources */,
+				DE7EF0BA25BF30E500E388FC /* Ornek6_AnimasyonEtkiAlanlari3.swift in Sources */,
+				DE7EF09F25BF0C3A00E388FC /* Ornek1_AnimationDuration_2.swift in Sources */,
+				DE7EF0B425BF19FE00E388FC /* Ornek5_AnimasyonEtkiAlanlari2.swift in Sources */,
+				DE7EF0C025BF367E00E388FC /* Ornek7_AnimasyonEtkiAlanlari4.swift in Sources */,
+				DE7EF0C625BF3D8000E388FC /* Ornek9_AnimasyonIptal.swift in Sources */,
+				DE7EF0BD25BF34AF00E388FC /* Ornek6_AnimasyonEtkiAlanlari3_2.swift in Sources */,
+				DE7EF0B125BF187E00E388FC /* Ornek4_AnimasyonEtkiAlanlari1_3.swift in Sources */,
+				DEECD3F925BF4A6900E91AA4 /* Ornek12_AnimasyonSoru2.swift in Sources */,
+				DE7EF0C325BF3B3A00E388FC /* Ornek8_AnimasyonCalismaHizi.swift in Sources */,
+				DE5A5B8625BF09F20054B2D7 /* Day90_AnimasyonSecenekleriApp.swift in Sources */,
+				DE7EF0C925BF406500E388FC /* Ornek10_AnimasyonIptal2.swift in Sources */,
+				DE7EF0AE25BF16E800E388FC /* Ornek4_AnimasyonEtkiAlanlari1_2.swift in Sources */,
+				DEECD3F625BF44CE00E91AA4 /* Ornek11_AnimasyonSoru1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE5A5B8F25BF09F30054B2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE5A5B9025BF09F30054B2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE5A5B9225BF09F30054B2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day90-AnimasyonSecenekleri/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day90-AnimasyonSecenekleri/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day90-AnimasyonSecenekleri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE5A5B9325BF09F30054B2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day90-AnimasyonSecenekleri/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day90-AnimasyonSecenekleri/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day90-AnimasyonSecenekleri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE5A5B7D25BF09F20054B2D7 /* Build configuration list for PBXProject "Day90-AnimasyonSecenekleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5A5B8F25BF09F30054B2D7 /* Debug */,
+				DE5A5B9025BF09F30054B2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5A5B9125BF09F30054B2D7 /* Build configuration list for PBXNativeTarget "Day90-AnimasyonSecenekleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5A5B9225BF09F30054B2D7 /* Debug */,
+				DE5A5B9325BF09F30054B2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE5A5B7A25BF09F20054B2D7 /* Project object */;
+}
