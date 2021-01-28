@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE438F5325C1D4C4002B7A78 /* Day91_SpringAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE438F5225C1D4C4002B7A78 /* Day91_SpringAnimationsApp.swift */; };
+		DE438F5525C1D4C4002B7A78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE438F5425C1D4C4002B7A78 /* ContentView.swift */; };
+		DE438F5725C1D4C5002B7A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE438F5625C1D4C5002B7A78 /* Assets.xcassets */; };
+		DE438F5A25C1D4C5002B7A78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE438F5925C1D4C5002B7A78 /* Preview Assets.xcassets */; };
+		DE438F6325C1D697002B7A78 /* Ornek1_SpringAnimationsGiris.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE438F6225C1D697002B7A78 /* Ornek1_SpringAnimationsGiris.swift */; };
+		DE438F6625C1D9B3002B7A78 /* Ornek2_InteractiveSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE438F6525C1D9B3002B7A78 /* Ornek2_InteractiveSpring.swift */; };
+		DE438F6925C1E089002B7A78 /* Ornek3_InterpolatingSpring_Stiffness.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE438F6825C1E089002B7A78 /* Ornek3_InterpolatingSpring_Stiffness.swift */; };
+		DE438F6C25C1E355002B7A78 /* Ornek4_InterpolatingSpring_Damping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE438F6B25C1E355002B7A78 /* Ornek4_InterpolatingSpring_Damping.swift */; };
+		DE438F6F25C1E544002B7A78 /* Ornek5_StiffnesVeDamping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE438F6E25C1E544002B7A78 /* Ornek5_StiffnesVeDamping.swift */; };
+		DE4BE1AC25C2DC1C00FD01E1 /* Ornek6_Interpolating_Mass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BE1AB25C2DC1C00FD01E1 /* Ornek6_Interpolating_Mass.swift */; };
+		DE4BE1AF25C2DEFE00FD01E1 /* Ornek7_Interpolating_NegativeVelocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BE1AE25C2DEFE00FD01E1 /* Ornek7_Interpolating_NegativeVelocity.swift */; };
+		DE4BE1B225C2E1B700FD01E1 /* Ornek8_Interpolating_SurekliAnimasyon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BE1B125C2E1B700FD01E1 /* Ornek8_Interpolating_SurekliAnimasyon.swift */; };
+		DE4BE1B525C2E37900FD01E1 /* Ornek9_Spring_Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BE1B425C2E37900FD01E1 /* Ornek9_Spring_Delay.swift */; };
+		DE4BE1B825C2E58B00FD01E1 /* Ornek10_Spring_Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BE1B725C2E58B00FD01E1 /* Ornek10_Spring_Speed.swift */; };
+		DE4BE1BB25C2E70F00FD01E1 /* Ornek11_Spring_Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BE1BA25C2E70F00FD01E1 /* Ornek11_Spring_Repeat.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE438F4F25C1D4C4002B7A78 /* Day91-SpringAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day91-SpringAnimations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE438F5225C1D4C4002B7A78 /* Day91_SpringAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day91_SpringAnimationsApp.swift; sourceTree = "<group>"; };
+		DE438F5425C1D4C4002B7A78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE438F5625C1D4C5002B7A78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE438F5925C1D4C5002B7A78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE438F5B25C1D4C5002B7A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE438F6225C1D697002B7A78 /* Ornek1_SpringAnimationsGiris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek1_SpringAnimationsGiris.swift; sourceTree = "<group>"; };
+		DE438F6525C1D9B3002B7A78 /* Ornek2_InteractiveSpring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek2_InteractiveSpring.swift; sourceTree = "<group>"; };
+		DE438F6825C1E089002B7A78 /* Ornek3_InterpolatingSpring_Stiffness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek3_InterpolatingSpring_Stiffness.swift; sourceTree = "<group>"; };
+		DE438F6B25C1E355002B7A78 /* Ornek4_InterpolatingSpring_Damping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek4_InterpolatingSpring_Damping.swift; sourceTree = "<group>"; };
+		DE438F6E25C1E544002B7A78 /* Ornek5_StiffnesVeDamping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek5_StiffnesVeDamping.swift; sourceTree = "<group>"; };
+		DE4BE1AB25C2DC1C00FD01E1 /* Ornek6_Interpolating_Mass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek6_Interpolating_Mass.swift; sourceTree = "<group>"; };
+		DE4BE1AE25C2DEFE00FD01E1 /* Ornek7_Interpolating_NegativeVelocity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek7_Interpolating_NegativeVelocity.swift; sourceTree = "<group>"; };
+		DE4BE1B125C2E1B700FD01E1 /* Ornek8_Interpolating_SurekliAnimasyon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek8_Interpolating_SurekliAnimasyon.swift; sourceTree = "<group>"; };
+		DE4BE1B425C2E37900FD01E1 /* Ornek9_Spring_Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek9_Spring_Delay.swift; sourceTree = "<group>"; };
+		DE4BE1B725C2E58B00FD01E1 /* Ornek10_Spring_Speed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek10_Spring_Speed.swift; sourceTree = "<group>"; };
+		DE4BE1BA25C2E70F00FD01E1 /* Ornek11_Spring_Repeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornek11_Spring_Repeat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE438F4C25C1D4C4002B7A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE438F4625C1D4C4002B7A78 = {
+			isa = PBXGroup;
+			children = (
+				DE438F5125C1D4C4002B7A78 /* Day91-SpringAnimations */,
+				DE438F5025C1D4C4002B7A78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE438F5025C1D4C4002B7A78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE438F4F25C1D4C4002B7A78 /* Day91-SpringAnimations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE438F5125C1D4C4002B7A78 /* Day91-SpringAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				DE438F5225C1D4C4002B7A78 /* Day91_SpringAnimationsApp.swift */,
+				DE438F5425C1D4C4002B7A78 /* ContentView.swift */,
+				DE438F6225C1D697002B7A78 /* Ornek1_SpringAnimationsGiris.swift */,
+				DE438F6525C1D9B3002B7A78 /* Ornek2_InteractiveSpring.swift */,
+				DE438F6825C1E089002B7A78 /* Ornek3_InterpolatingSpring_Stiffness.swift */,
+				DE438F6B25C1E355002B7A78 /* Ornek4_InterpolatingSpring_Damping.swift */,
+				DE438F6E25C1E544002B7A78 /* Ornek5_StiffnesVeDamping.swift */,
+				DE4BE1AB25C2DC1C00FD01E1 /* Ornek6_Interpolating_Mass.swift */,
+				DE4BE1AE25C2DEFE00FD01E1 /* Ornek7_Interpolating_NegativeVelocity.swift */,
+				DE4BE1B125C2E1B700FD01E1 /* Ornek8_Interpolating_SurekliAnimasyon.swift */,
+				DE4BE1B425C2E37900FD01E1 /* Ornek9_Spring_Delay.swift */,
+				DE4BE1B725C2E58B00FD01E1 /* Ornek10_Spring_Speed.swift */,
+				DE4BE1BA25C2E70F00FD01E1 /* Ornek11_Spring_Repeat.swift */,
+				DE438F5625C1D4C5002B7A78 /* Assets.xcassets */,
+				DE438F5B25C1D4C5002B7A78 /* Info.plist */,
+				DE438F5825C1D4C5002B7A78 /* Preview Content */,
+			);
+			path = "Day91-SpringAnimations";
+			sourceTree = "<group>";
+		};
+		DE438F5825C1D4C5002B7A78 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE438F5925C1D4C5002B7A78 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE438F4E25C1D4C4002B7A78 /* Day91-SpringAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE438F5E25C1D4C5002B7A78 /* Build configuration list for PBXNativeTarget "Day91-SpringAnimations" */;
+			buildPhases = (
+				DE438F4B25C1D4C4002B7A78 /* Sources */,
+				DE438F4C25C1D4C4002B7A78 /* Frameworks */,
+				DE438F4D25C1D4C4002B7A78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day91-SpringAnimations";
+			productName = "Day91-SpringAnimations";
+			productReference = DE438F4F25C1D4C4002B7A78 /* Day91-SpringAnimations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE438F4725C1D4C4002B7A78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DE438F4E25C1D4C4002B7A78 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DE438F4A25C1D4C4002B7A78 /* Build configuration list for PBXProject "Day91-SpringAnimations" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE438F4625C1D4C4002B7A78;
+			productRefGroup = DE438F5025C1D4C4002B7A78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE438F4E25C1D4C4002B7A78 /* Day91-SpringAnimations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE438F4D25C1D4C4002B7A78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE438F5A25C1D4C5002B7A78 /* Preview Assets.xcassets in Resources */,
+				DE438F5725C1D4C5002B7A78 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE438F4B25C1D4C4002B7A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE438F5525C1D4C4002B7A78 /* ContentView.swift in Sources */,
+				DE4BE1AC25C2DC1C00FD01E1 /* Ornek6_Interpolating_Mass.swift in Sources */,
+				DE4BE1AF25C2DEFE00FD01E1 /* Ornek7_Interpolating_NegativeVelocity.swift in Sources */,
+				DE4BE1B225C2E1B700FD01E1 /* Ornek8_Interpolating_SurekliAnimasyon.swift in Sources */,
+				DE4BE1B525C2E37900FD01E1 /* Ornek9_Spring_Delay.swift in Sources */,
+				DE438F6C25C1E355002B7A78 /* Ornek4_InterpolatingSpring_Damping.swift in Sources */,
+				DE438F6325C1D697002B7A78 /* Ornek1_SpringAnimationsGiris.swift in Sources */,
+				DE438F6625C1D9B3002B7A78 /* Ornek2_InteractiveSpring.swift in Sources */,
+				DE438F5325C1D4C4002B7A78 /* Day91_SpringAnimationsApp.swift in Sources */,
+				DE438F6925C1E089002B7A78 /* Ornek3_InterpolatingSpring_Stiffness.swift in Sources */,
+				DE438F6F25C1E544002B7A78 /* Ornek5_StiffnesVeDamping.swift in Sources */,
+				DE4BE1BB25C2E70F00FD01E1 /* Ornek11_Spring_Repeat.swift in Sources */,
+				DE4BE1B825C2E58B00FD01E1 /* Ornek10_Spring_Speed.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE438F5C25C1D4C5002B7A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE438F5D25C1D4C5002B7A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE438F5F25C1D4C5002B7A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day91-SpringAnimations/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day91-SpringAnimations/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day91-SpringAnimations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE438F6025C1D4C5002B7A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Day91-SpringAnimations/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UTB6LU2LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Day91-SpringAnimations/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calidustech.Day91-SpringAnimations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE438F4A25C1D4C4002B7A78 /* Build configuration list for PBXProject "Day91-SpringAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE438F5C25C1D4C5002B7A78 /* Debug */,
+				DE438F5D25C1D4C5002B7A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE438F5E25C1D4C5002B7A78 /* Build configuration list for PBXNativeTarget "Day91-SpringAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE438F5F25C1D4C5002B7A78 /* Debug */,
+				DE438F6025C1D4C5002B7A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE438F4725C1D4C4002B7A78 /* Project object */;
+}
