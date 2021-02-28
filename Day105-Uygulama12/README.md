@@ -16,6 +16,6 @@
 
 <p align="center">
 <video width="320" controls>
-  <source src="1.mov" type="video/mp4">
+  <source src="1.mp4" type="video/mp4">
 </video>
 </p>
