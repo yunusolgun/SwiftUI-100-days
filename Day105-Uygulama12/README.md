@@ -9,13 +9,13 @@
 
 <p align="center">
   <h3>Örnek1</h3>
-  <img src="1.png" width="350">
+  <img src="1.png" width="800">
 </p>
 <hr>
 
 
 <p align="center">
 <video width="320" controls>
-  <source src="1.mov" type="video/mov">
+  <source src="1.mov" type="video/mp4">
 </video>
 </p>
