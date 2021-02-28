@@ -15,7 +15,6 @@
 
 
 <p align="center">
-<video width="320" controls>
-  <source src="1.mp4" type="video/mp4">
-</video>
+  <img src="1.gif" width="350">
 </p>
+
